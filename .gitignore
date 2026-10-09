@@ -1,0 +1,31 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuración con secretos
+config/.env
+.env
+
+# Evidencias forenses (datos sensibles)
+evidencias/*
+!evidencias/.gitkeep
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
